@@ -4,7 +4,7 @@ const api = 'https://gnk.onm.mybluehost.me/products_api/';
 
 export const getProducts = () => 
     axios.get(`${api}`).then((res) => {
-        console.log(res);
+        //console.log(res.data);
         return res.data;
     });
 

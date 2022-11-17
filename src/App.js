@@ -1,8 +1,8 @@
 import './App.css';
-import Products from './Components/products';
-import SearchBar from './Components/searchBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import SearchBar from './Components/searchBar';
 import { Container } from 'react-bootstrap';
+import { Products } from './Components/products';
 
 function App() {
   return (
